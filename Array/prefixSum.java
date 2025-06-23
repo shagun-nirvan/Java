@@ -11,6 +11,7 @@ public class prefixSum {
             if(i==0){
                 preSum[i]=nums[i];
 
+                
             }
             else{
                 preSum[i]=preSum[i-1]+nums[i];
