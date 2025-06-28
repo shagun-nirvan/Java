@@ -9,7 +9,7 @@ public class subArrays {
             for(int j=i;j<numbers.length;j++){
                 sum = 0;
                 for(int k=i;k<=j;k++){
-                   // System.out.print(numbers[k]+" ");
+                    //System.out.print(numbers[k]+" ");
                     sum = sum+numbers[k];
                 }
                 System.out.print(sum  +" ");
@@ -20,7 +20,7 @@ public class subArrays {
             }
             System.out.println();
         }
-        System.out.println("MAX SUM:"+ max);
+       System.out.println("MAX SUM:"+ max);
     }
     public static void main(String[] args) {
         int numbers[] = {2,4,6,8,10};
