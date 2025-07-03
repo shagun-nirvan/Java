@@ -15,7 +15,7 @@ public class subArrays {
                 System.out.print(sum  +" ");
                 if(max<sum){
                     max=sum;
-                }   
+                 }   
                 
             }
             System.out.println();
